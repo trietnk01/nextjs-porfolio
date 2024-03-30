@@ -1,0 +1,603 @@
+@font-face {
+  font-family: "KontrapunktMiki_Bold";
+  src: url("./../fonts/KontrapunktMiki/KontrapunktMiki-Bold.eot");
+  src: url("./../fonts/KontrapunktMiki/KontrapunktMiki-Bold.eot?#iefix") format("embedded-opentype"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Bold.woff2") format("woff2"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Bold.woff") format("woff"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Bold.ttf") format("truetype"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Bold.svg#KontrapunktMiki-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "KontrapunktMiki_ExtraBold";
+  src: url("./../fonts/KontrapunktMiki/KontrapunktMiki-ExtraBold.eot");
+  src: url("./../fonts/KontrapunktMiki/KontrapunktMiki-ExtraBold.eot?#iefix") format("embedded-opentype"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-ExtraBold.woff2") format("woff2"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-ExtraBold.woff") format("woff"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-ExtraBold.ttf") format("truetype"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-ExtraBold.svg#KontrapunktMiki-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "KontrapunktMiki_Regular";
+  src: url("./../fonts/KontrapunktMiki/KontrapunktMiki-Regular.eot");
+  src: url("./../fonts/KontrapunktMiki/KontrapunktMiki-Regular.eot?#iefix") format("embedded-opentype"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Regular.woff2") format("woff2"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Regular.woff") format("woff"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Regular.ttf") format("truetype"), url("./../fonts/KontrapunktMiki/KontrapunktMiki-Regular.svg#KontrapunktMiki-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GeneralSans_Bold";
+  src: url("./../fonts/GeneralSans/GeneralSans-Bold.eot");
+  src: url("./../fonts/GeneralSans/GeneralSans-Bold.eot?#iefix") format("embedded-opentype"), url("./../fonts/GeneralSans/GeneralSans-Bold.woff2") format("woff2"), url("./../fonts/GeneralSans/GeneralSans-Bold.woff") format("woff"), url("./../fonts/GeneralSans/GeneralSans-Bold.ttf") format("truetype"), url("./../fonts/GeneralSans/GeneralSans-Bold.svg#GeneralSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GeneralSans_Extralight";
+  src: url("./../fonts/GeneralSans/GeneralSans-Extralight.eot");
+  src: url("./../fonts/GeneralSans/GeneralSans-Extralight.eot?#iefix") format("embedded-opentype"), url("./../fonts/GeneralSans/GeneralSans-Extralight.woff2") format("woff2"), url("./../fonts/GeneralSans/GeneralSans-Extralight.woff") format("woff"), url("./../fonts/GeneralSans/GeneralSans-Extralight.ttf") format("truetype"), url("./../fonts/GeneralSans/GeneralSans-Extralight.svg#GeneralSans-Extralight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GeneralSans_Medium";
+  src: url("./../fonts/GeneralSans/GeneralSans-Medium.eot");
+  src: url("./../fonts/GeneralSans/GeneralSans-Medium.eot?#iefix") format("embedded-opentype"), url("./../fonts/GeneralSans/GeneralSans-Medium.woff2") format("woff2"), url("./../fonts/GeneralSans/GeneralSans-Medium.woff") format("woff"), url("./../fonts/GeneralSans/GeneralSans-Medium.ttf") format("truetype"), url("./../fonts/GeneralSans/GeneralSans-Medium.svg#GeneralSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GeneralSans_Light";
+  src: url("./../fonts/GeneralSans/GeneralSans-Light.eot");
+  src: url("./../fonts/GeneralSans/GeneralSans-Light.eot?#iefix") format("embedded-opentype"), url("./../fonts/GeneralSans/GeneralSans-Light.woff2") format("woff2"), url("./../fonts/GeneralSans/GeneralSans-Light.woff") format("woff"), url("./../fonts/GeneralSans/GeneralSans-Light.ttf") format("truetype"), url("./../fonts/GeneralSans/GeneralSans-Light.svg#GeneralSans-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GeneralSans_Regular";
+  src: url("./../fonts/GeneralSans/GeneralSans-Regular.eot");
+  src: url("./../fonts/GeneralSans/GeneralSans-Regular.eot?#iefix") format("embedded-opentype"), url("./../fonts/GeneralSans/GeneralSans-Regular.woff2") format("woff2"), url("./../fonts/GeneralSans/GeneralSans-Regular.woff") format("woff"), url("./../fonts/GeneralSans/GeneralSans-Regular.ttf") format("truetype"), url("./../fonts/GeneralSans/GeneralSans-Regular.svg#GeneralSans-Regular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GeneralSans_Semibold";
+  src: url("./../fonts/GeneralSans/GeneralSans-Semibold.eot");
+  src: url("./../fonts/GeneralSans/GeneralSans-Semibold.eot?#iefix") format("embedded-opentype"), url("./../fonts/GeneralSans/GeneralSans-Semibold.woff2") format("woff2"), url("./../fonts/GeneralSans/GeneralSans-Semibold.woff") format("woff"), url("./../fonts/GeneralSans/GeneralSans-Semibold.ttf") format("truetype"), url("./../fonts/GeneralSans/GeneralSans-Semibold.svg#GeneralSans-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "GeneralSans_Regular";
+  font-size: 18px;
+  color: #212121;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.bgMain {
+  background: #f0e87b;
+}
+
+.bgPink {
+  background: #ebc4b1;
+}
+
+.bgSecond {
+  background: #6ec1e4;
+}
+
+.bgGray {
+  background: #dfdfdf;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+}
+.mainContainer .headerMobile {
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #212121;
+  height: 70px;
+  display: none;
+}
+@media (max-width: 576px) {
+  .mainContainer .headerMobile {
+    display: flex;
+  }
+}
+.mainContainer .headerMobile .logoHeaderMobile {
+  margin-left: 10px;
+}
+.mainContainer .headerMobile .btnBarHeaderMobile {
+  position: fixed;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  font-size: 25px;
+  font-weight: normal;
+  top: 20px;
+  right: 20px;
+  z-index: 200;
+}
+.mainContainer .logoRightBottom {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 103;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.mainContainer .logoRightBottom.elShow {
+  opacity: 1;
+}
+.mainContainer .fixedSidebar {
+  position: fixed;
+  z-index: 101;
+  height: 100vh;
+  width: 100px;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .mainContainer .fixedSidebar {
+    display: none;
+  }
+}
+.mainContainer .fixedSidebar .logoBox {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.mainContainer .fixedSidebar .boxBars .btnBars {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  font-size: 25px;
+  font-weight: normal;
+}
+.mainContainer .fixedSidebar .contactBox {
+  position: absolute;
+  bottom: 90px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  transform: rotate(-90deg);
+}
+.mainContainer .fixedSidebar .contactBox .contactLink {
+  text-decoration: none;
+  color: #212121;
+  font-family: "KontrapunktMiki_Bold";
+}
+.mainContainer .homeMainBox {
+  margin-left: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .mainContainer .homeMainBox {
+    margin-left: 0;
+  }
+}
+.mainContainer .homeMainBox .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 690px;
+}
+@media (max-width: 576px) {
+  .mainContainer .homeMainBox .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.mainContainer .homeMainBox .container .logo {
+  width: 150px;
+  height: 150px;
+}
+@media (max-width: 992px) {
+  .mainContainer .homeMainBox .container .logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+.mainContainer .homeMainBox .container .content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.mainContainer .homeMainBox .container .content .nameBox {
+  font-family: "KontrapunktMiki_Bold";
+  font-size: 60px;
+}
+@media (max-width: 992px) {
+  .mainContainer .homeMainBox .container .content .nameBox {
+    font-size: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .homeMainBox .container .content .nameBox {
+    font-size: 30px;
+  }
+}
+.mainContainer .homeMainBox .container .content .titleBox {
+  font-family: "KontrapunktMiki_Regular";
+  font-size: 30px;
+}
+.mainContainer .rightMainBox {
+  margin-left: 100px;
+  padding: 150px 100px 0px 100px;
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox {
+    padding: 150px 50px 0px 50px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox {
+    margin-left: 0;
+    padding: 150px 20px 0px 20px;
+  }
+}
+.mainContainer .rightMainBox .wrapper {
+  position: relative;
+}
+.mainContainer .rightMainBox .wrapper .squareSide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  border-top: 10px solid #212121;
+  border-left: 10px solid #212121;
+}
+.mainContainer .rightMainBox .wrapper .content {
+  padding: 55px 50px 0 50px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .content {
+    padding: 55px 10px 0 10px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer {
+  display: flex;
+  justify-content: center;
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper {
+  width: 700px;
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper {
+    width: 100%;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsHeading {
+  text-align: center;
+  color: #249ec6;
+  margin-bottom: 40px;
+  font-family: "KontrapunktMiki_Bold";
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow {
+  display: flex;
+  justify-content: space-between;
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
+  position: absolute;
+  width: 200px;
+  border-top: 1px solid #7a7a7a;
+  bottom: 0;
+  right: 0;
+  margin-top: 5px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
+    width: 140px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
+  position: absolute;
+  width: 200px;
+  border-top: 1px solid #7a7a7a;
+  bottom: 0;
+  left: 0;
+  margin-top: 5px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
+    width: 140px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox {
+  position: relative;
+}
+.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox .skillsTitle {
+  font-family: "KontrapunktMiki_Regular";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.mainContainer .rightMainBox .wrapper .content .contactTitle {
+  font-size: 60px;
+  font-family: "KontrapunktMiki_Bold";
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .wrapper .content .contactTitle {
+    font-size: 45px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .content .contactTitle {
+    font-size: 40px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .contactDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper {
+  width: 680px;
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper {
+    width: 100%;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem {
+  width: 50%;
+}
+.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
+  font-family: "KontrapunktMiki_Bold";
+  color: #212121;
+  font-size: 40px;
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
+    font-size: 25px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
+  font-family: "KontrapunktMiki_Regular";
+  color: #212121;
+  font-size: 20px;
+  margin-top: 10px;
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
+    font-size: 17px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .skillContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .skillContainer {
+    padding-top: 60px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience {
+  width: 900px;
+}
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience {
+    width: 100%;
+  }
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .experience {
+  color: #6ec1e4;
+  font-size: 30px;
+  font-family: "KontrapunktMiki_Regular";
+  margin-bottom: 40px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .experience {
+    font-size: 25px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem {
+  margin-bottom: 50px;
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectTitle {
+  color: #212121;
+  font-family: "KontrapunktMiki_Regular";
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 420px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent {
+    width: 100%;
+  }
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent .companyName {
+  font-family: "KontrapunktMiki_Bold";
+  color: #5f5f5f;
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent .companyDurtion {
+  font-family: "KontrapunktMiki_Bold";
+  color: #5f5f5f;
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .taskList {
+  margin-top: 10px;
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .taskList li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .taskList li strong {
+  font-family: "KontrapunktMiki_ExtraBold";
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .lineBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .lineBox .lineItem {
+  width: 300px;
+  border-top: 2px solid #1a1a1a;
+}
+.mainContainer .rightMainBox .wrapper .srollBox {
+  height: 400px;
+  overflow-x: hidden;
+  padding: 0px 20px;
+}
+@media (max-width: 576px) {
+  .mainContainer .rightMainBox .wrapper .srollBox {
+    height: 600px;
+  }
+}
+.mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar {
+  width: 8px;
+}
+.mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: transparent;
+}
+.mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 8px;
+}
+.mainContainer .rightMainBox .wrapper .srollBox:hover::-webkit-scrollbar-track {
+  background-color: #f4d9cc;
+}
+.mainContainer .rightMainBox .wrapper .srollBox:hover::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(-45deg, #6a5af9, #d66efd);
+}
+.mainContainer .rightMainBox .wrapper .srollBox .intro {
+  list-style: none;
+}
+.mainContainer .rightMainBox .wrapper .srollBox .intro .item {
+  margin-bottom: 30px;
+}
+.mainContainer .rightMainBox .wrapper .srollBox .intro .item .text {
+  text-align: justify;
+}
+.mainContainer .rightMainBox .wrapper .srollBox .intro .item .text strong {
+  font-family: "KontrapunktMiki_ExtraBold";
+}
+.mainContainer .panelToggle {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #6ec1e4;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+  transition-timing-function: ease-in;
+  padding: 100px 100px 100px 300px;
+}
+@media (max-width: 992px) {
+  .mainContainer .panelToggle {
+    padding: 100px 100px 100px 150px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .panelToggle {
+    padding: 100px 100px 100px 110px;
+  }
+}
+.mainContainer .panelToggle .mainMenu {
+  list-style: none;
+}
+.mainContainer .panelToggle .mainMenu li a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 70px;
+  font-family: "KontrapunktMiki_Regular";
+}
+@media (max-width: 992px) {
+  .mainContainer .panelToggle .mainMenu li a {
+    font-size: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .mainContainer .panelToggle .mainMenu li a {
+    font-size: 40px;
+  }
+}
+.mainContainer .panelToggle.elShow {
+  transform: translateX(0);
+  opacity: 1;
+}
+.mainContainer .contactRightBox {
+  position: absolute;
+  z-index: 99;
+  top: 50px;
+  right: 40px;
+  border: 1px solid #212121;
+  padding: 15px 20px;
+}
+@media (max-width: 576px) {
+  .mainContainer .contactRightBox {
+    display: none;
+  }
+}
+.mainContainer .contactRightBox .contactedLink {
+  text-decoration: none;
+  color: #212121;
+  font-family: "KontrapunktMiki_Bold";
+}
