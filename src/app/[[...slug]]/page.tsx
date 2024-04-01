@@ -13,7 +13,7 @@ const HomePage = () => {
     return (
         <div className="homeMainBox">
             <div className="container">
-                <Image src="/Logo-AskWho.svg" alt="Nguyen Kim Dien" width={150} height={150} />
+                <Image src="/Logo-AskWho.svg" alt="Nguyen Kim Dien" width={150} height={150} className="logo-homepage" />
                 <div className="content">
                     <h1 className="nameBox">Nguyen Kim Dien</h1>
                     <div className="titleBox">Fullstack developer</div>

@@ -213,16 +213,14 @@ p {
   .mainContainer .homeMainBox .container {
     width: 100%;
     padding: 0 10px;
+    flex-direction: column;
+    row-gap: 20px;
   }
 }
-.mainContainer .homeMainBox .container .logo {
-  width: 150px;
-  height: 150px;
-}
-@media (max-width: 992px) {
-  .mainContainer .homeMainBox .container .logo {
-    width: 90px;
-    height: 90px;
+@media (max-width: 576px) {
+  .mainContainer .homeMainBox .container .logo-homepage {
+    width: 80px;
+    height: 80px;
   }
 }
 .mainContainer .homeMainBox .container .content {
@@ -260,7 +258,7 @@ p {
 @media (max-width: 576px) {
   .mainContainer .rightMainBox {
     margin-left: 0;
-    padding: 150px 20px 0px 20px;
+    padding: 110px 20px 0px 20px;
   }
 }
 .mainContainer .rightMainBox .wrapper {
@@ -280,7 +278,7 @@ p {
 }
 @media (max-width: 576px) {
   .mainContainer .rightMainBox .wrapper .content {
-    padding: 55px 10px 0 10px;
+    padding: 45px 10px 0 10px;
   }
 }
 .mainContainer .rightMainBox .wrapper .content .skillsContainer {
@@ -330,6 +328,11 @@ p {
     width: 140px;
   }
 }
+@media (max-width: 375px) {
+  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
+    width: 90px;
+  }
+}
 .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight {
   width: 48%;
   display: flex;
@@ -347,6 +350,11 @@ p {
 @media (max-width: 576px) {
   .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
     width: 140px;
+  }
+}
+@media (max-width: 375px) {
+  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
+    width: 90px;
   }
 }
 .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox {
@@ -404,7 +412,7 @@ p {
 }
 @media (max-width: 576px) {
   .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
@@ -420,7 +428,7 @@ p {
 }
 @media (max-width: 576px) {
   .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 .mainContainer .rightMainBox .wrapper .skillContainer {
@@ -434,7 +442,7 @@ p {
   }
 }
 .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience {
-  width: 900px;
+  width: 1050px;
 }
 @media (max-width: 992px) {
   .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience {
