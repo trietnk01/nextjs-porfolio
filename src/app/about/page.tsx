@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { PublicContext } from "app/layout";
-
+import { PublicContext } from "app/context";
 const AboutPage = () => {
     const context = React.useContext(PublicContext);
     React.useEffect(() => {

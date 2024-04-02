@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { PublicContext } from "app/layout";
+import { PublicContext } from "app/context";
 import Image from "next/image";
 const HomePage = () => {
     const context = React.useContext(PublicContext);
