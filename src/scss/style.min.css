@@ -193,7 +193,7 @@ p {
 }
 .mainContainer .homeMainBox {
   margin-left: 100px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,6 +208,11 @@ p {
   justify-content: space-between;
   align-items: center;
   width: 690px;
+}
+@media (max-width: 992px) {
+  .mainContainer .homeMainBox .container {
+    width: 590px;
+  }
 }
 @media (max-width: 576px) {
   .mainContainer .homeMainBox .container {
