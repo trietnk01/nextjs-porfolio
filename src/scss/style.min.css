@@ -506,13 +506,13 @@ p {
   border-top: 2px solid #1a1a1a;
 }
 .mainContainer .rightMainBox .wrapper .srollBox {
-  height: 400px;
+  height: 600px;
   overflow-x: hidden;
   padding: 0px 20px;
 }
 @media (max-width: 576px) {
   .mainContainer .rightMainBox .wrapper .srollBox {
-    height: 600px;
+    height: 300px;
   }
 }
 .mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar {

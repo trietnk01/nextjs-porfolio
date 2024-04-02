@@ -365,11 +365,11 @@
                 }
             }
             .srollBox {
-                height: 400px;
+                height: 600px;
                 overflow-x: hidden;
                 padding: 0px 20px;
                 @media (max-width: 576px) {
-                    height: 600px;
+                    height: 300px;
                 }
                 &::-webkit-scrollbar {
                     width: 8px;
