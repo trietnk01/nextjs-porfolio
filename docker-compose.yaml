@@ -1,7 +1,7 @@
 version: "3.9"
 services:
     nginx:
-        container_name: nginx_my_porfolio
+        container_name: nginx_nextjs_porfolio
         restart: always
         build:
             context: ./

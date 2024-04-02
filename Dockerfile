@@ -7,5 +7,5 @@ COPY . .
 RUN npm run build 
 # Stage 2
 FROM nginx:1.23.3
-COPY --from=build-stage /usr/frontend/build /usr/share/nginx/html
+COPY --from=build-stage /usr/frontend/.next /usr/share/nginx/html
 CMD nginx -g "daemon off;"
