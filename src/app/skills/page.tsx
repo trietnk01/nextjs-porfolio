@@ -87,15 +87,15 @@ const SkillsPage = () => {
                                 <div className="skillsRow">
                                     <div className="skillsItemLeft">
                                         <div className="titleBox">
-                                            <h3 className="skillsTitle">Github</h3>
+                                            <h3 className="skillsTitle">Typescript</h3>
                                             <div className="skillLine"></div>
                                         </div>
-                                        <Image src="/github.png" alt="Porfolio" width={40} height={40} />
+                                        <Image src="/typescript.png" alt="Porfolio" width={40} height={40} />
                                     </div>
                                     <div className="skillsItemRight">
                                         <Image src="/gitlab.png" alt="Porfolio" width={40} height={40} />
                                         <div className="titleBox">
-                                            <h3 className="skillsTitle">Gitlab</h3>
+                                            <h3 className="skillsTitle">Github/Gitlab</h3>
                                             <div className="skillLine"></div>
                                         </div>
                                     </div>
