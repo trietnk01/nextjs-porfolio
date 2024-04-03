@@ -71,6 +71,22 @@ const SkillsPage = () => {
                                 <div className="skillsRow">
                                     <div className="skillsItemLeft">
                                         <div className="titleBox">
+                                            <h3 className="skillsTitle">Elastic search</h3>
+                                            <div className="skillLine"></div>
+                                        </div>
+                                        <Image src="/elasticsearch.png" alt="Porfolio" width={40} height={40} />
+                                    </div>
+                                    <div className="skillsItemRight">
+                                        <Image src="/kafka.png" alt="Porfolio" width={40} height={40} />
+                                        <div className="titleBox">
+                                            <h3 className="skillsTitle">Kafka</h3>
+                                            <div className="skillLine"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="skillsRow">
+                                    <div className="skillsItemLeft">
+                                        <div className="titleBox">
                                             <h3 className="skillsTitle">Github</h3>
                                             <div className="skillLine"></div>
                                         </div>
