@@ -253,23 +253,30 @@ p {
 }
 .mainContainer .rightMainBox {
   margin-left: 100px;
-  padding: 150px 100px 0px 100px;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 100px 0;
 }
 @media (max-width: 992px) {
   .mainContainer .rightMainBox {
-    padding: 150px 50px 0px 50px;
+    padding: 100px 20px 100px 20px;
   }
 }
 @media (max-width: 576px) {
   .mainContainer .rightMainBox {
     margin-left: 0;
-    padding: 110px 20px 0px 20px;
   }
 }
-.mainContainer .rightMainBox .wrapper {
+.mainContainer .rightMainBox .container {
   position: relative;
+  width: 2230px;
 }
-.mainContainer .rightMainBox .wrapper .squareSide {
+@media (max-width: 992px) {
+  .mainContainer .rightMainBox .container {
+    width: 100%;
+  }
+}
+.mainContainer .rightMainBox .container .squareSide {
   position: absolute;
   top: 0;
   left: 0;
@@ -278,49 +285,49 @@ p {
   border-top: 10px solid #212121;
   border-left: 10px solid #212121;
 }
-.mainContainer .rightMainBox .wrapper .content {
+.mainContainer .rightMainBox .container .content {
   padding: 55px 50px 0 50px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .content {
+  .mainContainer .rightMainBox .container .content {
     padding: 45px 10px 0 10px;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer {
+.mainContainer .rightMainBox .container .content .skillsContainer {
   display: flex;
   justify-content: center;
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper {
   width: 700px;
 }
 @media (max-width: 992px) {
-  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper {
+  .mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper {
     width: 100%;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsHeading {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsHeading {
   text-align: center;
   color: #249ec6;
   margin-bottom: 40px;
   font-family: "KontrapunktMiki_Bold";
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain {
   display: flex;
   flex-direction: column;
   row-gap: 50px;
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow {
   display: flex;
   justify-content: space-between;
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft {
   width: 48%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   column-gap: 10px;
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
   position: absolute;
   width: 200px;
   border-top: 1px solid #7a7a7a;
@@ -329,22 +336,22 @@ p {
   margin-top: 5px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
+  .mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
     width: 140px;
   }
 }
 @media (max-width: 375px) {
-  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
+  .mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemLeft .skillLine {
     width: 90px;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight {
   width: 48%;
   display: flex;
   align-items: center;
   column-gap: 10px;
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
   position: absolute;
   width: 200px;
   border-top: 1px solid #7a7a7a;
@@ -353,200 +360,200 @@ p {
   margin-top: 5px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
+  .mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
     width: 140px;
   }
 }
 @media (max-width: 375px) {
-  .mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
+  .mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .skillsItemRight .skillLine {
     width: 90px;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox {
   position: relative;
 }
-.mainContainer .rightMainBox .wrapper .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox .skillsTitle {
+.mainContainer .rightMainBox .container .content .skillsContainer .skillsWrapper .skillsMain .skillsRow .titleBox .skillsTitle {
   font-family: "KontrapunktMiki_Regular";
   font-size: 16px;
   margin-bottom: 10px;
 }
-.mainContainer .rightMainBox .wrapper .content .contactTitle {
+.mainContainer .rightMainBox .container .content .contactTitle {
   font-size: 60px;
   font-family: "KontrapunktMiki_Bold";
 }
 @media (max-width: 992px) {
-  .mainContainer .rightMainBox .wrapper .content .contactTitle {
+  .mainContainer .rightMainBox .container .content .contactTitle {
     font-size: 45px;
   }
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .content .contactTitle {
+  .mainContainer .rightMainBox .container .content .contactTitle {
     font-size: 40px;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .contactDiv {
+.mainContainer .rightMainBox .container .content .contactDiv {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
-.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper {
+.mainContainer .rightMainBox .container .content .contactDiv .contactWrapper {
   width: 680px;
 }
 @media (max-width: 992px) {
-  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper {
+  .mainContainer .rightMainBox .container .content .contactDiv .contactWrapper {
     width: 100%;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow {
+.mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem {
+.mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem {
   width: 50%;
 }
-.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
+.mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem .title {
   font-family: "KontrapunktMiki_Bold";
   color: #212121;
   font-size: 40px;
 }
 @media (max-width: 992px) {
-  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
+  .mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem .title {
     font-size: 30px;
   }
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .title {
+  .mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem .title {
     font-size: 20px;
   }
 }
-.mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
+.mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
   font-family: "KontrapunktMiki_Regular";
   color: #212121;
   font-size: 20px;
   margin-top: 10px;
 }
 @media (max-width: 992px) {
-  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
+  .mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
     font-size: 20px;
   }
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
+  .mainContainer .rightMainBox .container .content .contactDiv .contactWrapper .contactRow .contactItem .intro {
     font-size: 15px;
   }
 }
-.mainContainer .rightMainBox .wrapper .skillContainer {
+.mainContainer .rightMainBox .container .skillContainer {
   display: flex;
   justify-content: center;
   padding-top: 100px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .skillContainer {
+  .mainContainer .rightMainBox .container .skillContainer {
     padding-top: 60px;
   }
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience {
   width: 1050px;
 }
 @media (max-width: 992px) {
-  .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience {
+  .mainContainer .rightMainBox .container .skillContainer .skillExperience {
     width: 100%;
   }
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .experience {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .experience {
   color: #6ec1e4;
   font-size: 30px;
   font-family: "KontrapunktMiki_Regular";
   margin-bottom: 40px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .experience {
+  .mainContainer .rightMainBox .container .skillContainer .skillExperience .experience {
     font-size: 25px;
   }
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem {
   margin-bottom: 50px;
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectTitle {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .projectTitle {
   color: #212121;
   font-family: "KontrapunktMiki_Regular";
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .projectContent {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
   width: 420px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent {
+  .mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .projectContent {
     width: 100%;
   }
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent .companyName {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .projectContent .companyName {
   font-family: "KontrapunktMiki_Bold";
   color: #5f5f5f;
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .projectContent .companyDurtion {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .projectContent .companyDurtion {
   font-family: "KontrapunktMiki_Bold";
   color: #5f5f5f;
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .taskList {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .taskList {
   margin-top: 10px;
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .taskList li {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .taskList li {
   margin-bottom: 10px;
   text-align: justify;
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .taskList li strong {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .taskList li strong {
   font-family: "KontrapunktMiki_ExtraBold";
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .lineBox {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .lineBox {
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-.mainContainer .rightMainBox .wrapper .skillContainer .skillExperience .projectItem .lineBox .lineItem {
+.mainContainer .rightMainBox .container .skillContainer .skillExperience .projectItem .lineBox .lineItem {
   width: 300px;
   border-top: 2px solid #1a1a1a;
 }
-.mainContainer .rightMainBox .wrapper .srollBox {
+.mainContainer .rightMainBox .container .srollBox {
   height: 600px;
   overflow-x: hidden;
   padding: 0px 20px;
 }
 @media (max-width: 576px) {
-  .mainContainer .rightMainBox .wrapper .srollBox {
+  .mainContainer .rightMainBox .container .srollBox {
     height: 300px;
   }
 }
-.mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar {
+.mainContainer .rightMainBox .container .srollBox::-webkit-scrollbar {
   width: 8px;
 }
-.mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar-track {
+.mainContainer .rightMainBox .container .srollBox::-webkit-scrollbar-track {
   border-radius: 8px;
   background-color: transparent;
 }
-.mainContainer .rightMainBox .wrapper .srollBox::-webkit-scrollbar-thumb {
+.mainContainer .rightMainBox .container .srollBox::-webkit-scrollbar-thumb {
   background: transparent;
   border-radius: 8px;
 }
-.mainContainer .rightMainBox .wrapper .srollBox:hover::-webkit-scrollbar-track {
+.mainContainer .rightMainBox .container .srollBox:hover::-webkit-scrollbar-track {
   background-color: #f4d9cc;
 }
-.mainContainer .rightMainBox .wrapper .srollBox:hover::-webkit-scrollbar-thumb {
+.mainContainer .rightMainBox .container .srollBox:hover::-webkit-scrollbar-thumb {
   background-image: linear-gradient(-45deg, #6a5af9, #d66efd);
 }
-.mainContainer .rightMainBox .wrapper .srollBox .intro {
+.mainContainer .rightMainBox .container .srollBox .intro {
   list-style: none;
 }
-.mainContainer .rightMainBox .wrapper .srollBox .intro .item {
+.mainContainer .rightMainBox .container .srollBox .intro .item {
   margin-bottom: 30px;
 }
-.mainContainer .rightMainBox .wrapper .srollBox .intro .item .text {
+.mainContainer .rightMainBox .container .srollBox .intro .item .text {
   text-align: justify;
 }
-.mainContainer .rightMainBox .wrapper .srollBox .intro .item .text strong {
+.mainContainer .rightMainBox .container .srollBox .intro .item .text strong {
   font-family: "KontrapunktMiki_ExtraBold";
 }
 .mainContainer .panelToggle {

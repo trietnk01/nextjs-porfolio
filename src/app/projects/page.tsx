@@ -12,7 +12,7 @@ const ProjectsPage = () => {
     }, []);
     return (
         <div className="rightMainBox">
-            <div className="wrapper">
+            <div className="container">
                 <div className="squareSide"></div>
                 <div className="skillContainer">
                     <div className="skillExperience">
