@@ -22,7 +22,7 @@ const ProjectsPage = () => {
                                 <h3 className="projectTitle">FRONTEND REACTJS/NEXTJS DEVELOPER</h3>
                                 <div className="projectContent">
                                     <div className="companyName">BGB VISION</div>
-                                    <div className="companyDurtion">06/2020 - 02/2024</div>
+                                    <div className="companyDurtion">06/2020 - 03/2024</div>
                                 </div>
                                 <ul className="taskList">
                                     <li>
