@@ -18,10 +18,10 @@ const AboutPage = () => {
                         <ul className="intro">
                             <li className="item">
                                 <div className="text">
-                                    My name is <strong>Dien</strong> . I graduated at <strong>HUTECH</strong> university for 11 years . And
-                                    I have 7 years experience about Frontend as well as <strong>ReactJs</strong> , Vuejs,{" "}
-                                    <strong>Html/Css3</strong> and Backend as well as <strong>Nodejs / Nestjs</strong>. But I have been
-                                    doing code for <strong>ReactJs/NestJs</strong> so far.
+                                    My name is <strong>Dien</strong> . I graduated at <strong>HUTECH</strong> university. And I have 7 years
+                                    experience about Frontend as well as <strong>ReactJs</strong> , Vuejs, <strong>Html/Css3</strong> and
+                                    Backend as well as <strong>Nodejs / Nestjs</strong>. But I have been doing code for{" "}
+                                    <strong>ReactJs/NestJs</strong> so far.
                                 </div>
                             </li>
                             <li className="item">
