@@ -21,7 +21,7 @@ const ProjectsPage = () => {
                             <div className="projectItem">
                                 <h3 className="projectTitle">FRONTEND REACTJS/NEXTJS DEVELOPER</h3>
                                 <div className="projectContent">
-                                    <div className="companyName">BGB VISION</div>
+                                    <div className="companyName">RAPTOR LTD</div>
                                     <div className="companyDurtion">06/2020 - Current</div>
                                 </div>
                                 <ul className="taskList">
@@ -53,8 +53,8 @@ const ProjectsPage = () => {
                             <div className="projectItem">
                                 <h3 className="projectTitle">FRONTEND REACTJS/NEXTJS DEVELOPER</h3>
                                 <div className="projectContent">
-                                    <div className="companyName">OCEAN BRANCH</div>
-                                    <div className="companyDurtion">03/2017 - 04/2020</div>
+                                    <div className="companyName">VOICE OF SALES CO.LTD</div>
+                                    <div className="companyDurtion">03/2018 - 04/2020</div>
                                 </div>
                                 <ul className="taskList">
                                     <li>
@@ -80,10 +80,10 @@ const ProjectsPage = () => {
                                 </div>
                             </div>
                             <div className="projectItem">
-                                <h3 className="projectTitle">JUNIOR REACTJS/NEXTJS DEVELOPER</h3>
+                                <h3 className="projectTitle">JUNIOR WEB DEVELOPER</h3>
                                 <div className="projectContent">
-                                    <div className="companyName">VIDOCO COMPANY</div>
-                                    <div className="companyDurtion">12/2016 - 01/2017</div>
+                                    <div className="companyName">ITL CONSULTING</div>
+                                    <div className="companyDurtion">12/2016 - 01/2018</div>
                                 </div>
                                 <ul className="taskList">
                                     <li>
@@ -113,7 +113,7 @@ const ProjectsPage = () => {
                                 <h3 className="projectTitle">FULLSTACK .NET DEVELOPER</h3>
                                 <div className="projectContent">
                                     <div className="companyName">TTC COMPANY</div>
-                                    <div className="companyDurtion">05/2013 - 11/2016</div>
+                                    <div className="companyDurtion"> 05/2012 - 11/2016</div>
                                 </div>
                                 <ul className="taskList">
                                     <li>
